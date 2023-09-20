@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    width: 100%;
+    /* background-color: yellow;
+    border: 2px solid red; */
+    justify-content: center;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    width: 100%;
+    border: 2px solid rebeccapurple;
+}
+.mainContent{
+    flex-direction: column;
+    display: flex;
+}
+.addTask{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#text{
+    width: 70%;
+    height: 80%;
+}
+#add{
+    width: 15%;
+    height: 110%;
+}
