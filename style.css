@@ -31,11 +31,27 @@ hr{
     flex-direction: row;
     justify-content: space-evenly;
 }
-#text{
+#myInput{
     width: 70%;
     height: 80%;
 }
-#add{
+.btn {
     width: 15%;
     height: 110%;
+}
+/* #myOL{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+#removeBtn{
+    margin-right: 20px;
 }
