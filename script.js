@@ -29,8 +29,10 @@ function newElement(){
     x.id = "removeBtn"; // here we are assigning (id = "removeBtn") to each button element.
     x.appendChild(text);
     li.appendChild(x); //this lines means that we are appending a child element "x" to the parent element "li".
+    
     // var hr = document.createElement("hr");
     // li.appendChild(hr);
+    
     // x is the button element
     
     for(var i = 0; i < removeBtn.length; i++){ 

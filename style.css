@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
 }
-hr{
+.line{
     width: 100%;
     border: 2px solid rebeccapurple;
 }
@@ -39,19 +39,17 @@ hr{
     width: 15%;
     height: 110%;
 }
-/* #myOL{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-} */
 li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 20px;
     margin-top: 20px;
+    align-items: center;
     
 }
 #removeBtn{
-    margin-right: 20px;
+    margin-right: 20px; 
+    height: 45px;
+    padding: 12px 16px 12px 16px;
 }
